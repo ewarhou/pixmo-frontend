@@ -1,0 +1,49 @@
+@import "./bootstrap.scss";
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.btn,
+.nav-item {
+  text-transform: capitalize;
+}
+
+.bg-gradient {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.bg-image {
+  background: url("../img/man-jacket.png") no-repeat center;
+  background-size: cover;
+}
+
+.bg-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: $secondary;
+  opacity: 0.5;
+  z-index: -1;
+}
+.solutions {
+  background: url("../img/wave.png") no-repeat center;
+  background-size: cover;
+}
+.solutions .card {
+  height: 100%;
+  transition: all ease-in-out 0.2s;
+
+  &:hover {
+    border-color: #4158d0;
+    transform: scale(1.03);
+  }
+}
+

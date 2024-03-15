@@ -1,0 +1,15 @@
+$primary: #2563eb;
+$secondary:#581C87;
+$font-family-sans-serif: "Cairo", sans-serif;
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$h1-font-size: $font-size-base * 3.815 !default;
+$h2-font-size: $font-size-base * 3.052 !default;
+$h3-font-size: $font-size-base * 2.441 !default;
+$h4-font-size: $font-size-base * 1.953 !default;
+$h5-font-size: $font-size-base * 1.563 !default;
+$h6-font-size: $font-size-base * 1.25 !default;
+
+$nav-link-font-weight: 600;
+$navbar-light-active-color: $primary !default;
+$navbar-padding-y:                  1rem * .8 !default;
